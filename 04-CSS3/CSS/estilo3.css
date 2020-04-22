@@ -1,0 +1,18 @@
+body{
+	font-family: ubuntu;
+	background: gray;
+}
+#box{
+	width: 300px;
+	height: 300px;
+	margin: 50px auto;
+	padding: 80px;
+	background: #009670;
+	box-shadow: 4px 4px 10px 10px, -8px -8px 10px 10px yellow;
+}
+
+#box h1{
+	color: white;
+	font-size: 60px;
+	text-shadow: 6px 6px 5px rgba(0,0,0,0.8);
+}

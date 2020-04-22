@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Formulários</title>
+            <meta charset="utf-8"/>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta  name="viewport" content="width=device-widith, initial-scale=1">
+        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="estilo.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="page-header">
+                <h1>Formulários Bootstrap</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <h3>Cadastre-se</h3>
+                    <div class="form-group">
+                    <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="text" class="form-control" id="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input type="text" class="form-control" id="senha">
+                    </div>
+
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Aceito os termos do serviço
+                        </label>
+                    </div>
+                    
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="opcoes"> PHP
+                        </label>
+                        
+                        <label>
+                            <input type="radio" name="opcoes"> Java
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+
+                </div>
+                <div class="col-sm-4">
+                    <h3>Entrar</h3>
+                    
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Digite Seu e-mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="senha" placeholder="Digite Sua senha">
+                    </div>
+                    <button class="btn btn-primary">Entrar</button>
+                
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+            crossorigin="anonymous"></script>
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+            integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
